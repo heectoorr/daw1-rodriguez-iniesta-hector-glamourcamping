@@ -8,7 +8,7 @@ body{
     font-size:16px;
   }
   
-  #head{
+  #cabezera{
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -94,12 +94,12 @@ body{
     align-items: center;
   }
   
-  #flecha_derecha{
+  #flechaderecha{
     margin-left: 110px;
     opacity: 30%;
   }
   
-  #flecha_izquierda{
+  #flechaizquierda{
     margin-right: 110px;
   }
   
@@ -136,7 +136,7 @@ body{
     line-height: 60px;
   }
   
-  .videoboton{
+  .videoplay{
     width: 241px;
     margin-left: 60px;
     display: flex;
@@ -164,7 +164,7 @@ body{
     max-height: 11.79px;
   }
   
-  .videoboton > a{
+  .videoplay > a{
     color: white;
     text-decoration: none;
     font-weight: 500;
@@ -195,7 +195,7 @@ body{
     color: #97A483;
   } 
   
-  #contenido_activity p{
+  #contenido2 p{
     width: 1088px;
     height: 130px;
     color: #555555;
@@ -207,7 +207,7 @@ body{
     font-weight: 500;
   }
   
-  #contenido_activity h2{
+  #contenido2 h2{
     text-align: center;
     width: 520px;
     height: 122px;
@@ -241,11 +241,11 @@ body{
     margin-top: 18px;
   }
   
-  .imagenes_clase{
+  .grupoimagenes{
     margin-top: 20px;
   }
   
-  .imagenes_clase img{
+  .grupoimagenes img{
     margin-left: 19px;
   }
   
@@ -299,24 +299,24 @@ body{
     height: 59px;
   }
   
-  #imagenes2{
+  #grupoimagenes2{
    display: flex;
    align-items: center;
    margin-top: 90px;
   }
   
-  #imagenes2 div{
+  #grupoimagenes2 div{
     width: 474px;
     height: 527px;
     justify-items: center;
   }
   
-  #imagenes2 div img{
+  #grupoimagenes2 div img{
     width: 474px;
     height: 320px;
   }
   
-  #imagenes2 div h2{
+  #grupoimagenes2 div h2{
     width: 282px;
     height: 25px;
     font-weight: 700;
@@ -327,7 +327,7 @@ body{
     margin-bottom: 20px;
   }
   
-  #imagenes2 div p{
+  #grupoimagenes2 div p{
     width: 452px; 
     height: 130px;
     font-weight: 500;
@@ -349,19 +349,19 @@ body{
     margin-left: 40px;
   }
   
-  #activity_informacion{
+  #informacion{
     display: flex; 
   }
   
-  #activity1 h1{
+  #activity h1{
     margin-left: 210px;
   }
   
-  #activity1{
+  #activity{
     margin-top: 130px;
     font-weight: 700;
   }
-  #activity1 p{
+  #activity p{
     width: 97px;
     height: 24px;
     font-size: 20px;
@@ -370,7 +370,7 @@ body{
     margin-left: 210px;
   } 
   
-  #activity1 h1{
+  #activity h1{
     color: #2D2D2D;
     width: 646px;
     height: 122px;
@@ -550,7 +550,7 @@ body{
     margin-left: 638px;
   }
   
-  .anuncios_booking{
+  .anunciosbooking{
     display: flex;
     margin-top: 86px;
     margin-left: 210px;
@@ -560,14 +560,14 @@ body{
     margin-left: 32px;
   }
   
-  .anuncios_booking > div > img{
+  .anunciosbooking > div > img{
     width: 733px;
     max-width: 733px;
     height: 443px;
     max-height: 443px;
   }
   
-  .anuncios_booking  h2{
+  .anunciosbooking  h2{
     height: 25px;
     max-height: 25px;
     font-weight: 700;
@@ -621,7 +621,7 @@ body{
     color: #9A9A9A;
   }
   
-  .anuncios_booking > div > p{
+  .anunciosbooking > div > p{
     width: 677px;
     height: 130px;
     font-weight: 500;
@@ -632,7 +632,7 @@ body{
     margin-top: 21px;
   }
   
-  .anuncios_booking div button{
+  .anunciosbooking div button{
     width: 293px;
     height: 50px;
     background-color: #345E40;
@@ -642,11 +642,11 @@ body{
     align-items: center;   
   }
   
-  .anuncios_booking div button:hover{
+  .anunciosbooking div button:hover{
     cursor: pointer;
   }
   
-  .anuncios_booking div button a{
+  .anunciosbooking div button a{
     color: #FFFFFF;
     width: 150.36px;
     height: 17px;
@@ -667,12 +667,12 @@ body{
     margin-left: 210px;
   }
   
-  #Lastest_Articles {
+  #LastestArticles {
     display: flex;
     margin-top: 13px;
   }
   
-  #Lastest_Articles h2{
+  #LastestArticles h2{
     color: #2D2D2D;
     width: 621px;
     height: 61px;
@@ -682,7 +682,7 @@ body{
     margin-left: 209px;
   }
   
-  #Lastest_Articles button{
+  #LastestArticles button{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -695,7 +695,7 @@ body{
   }
   
   
-  #Lastest_Articles button a{
+  #LastestArticles button a{
     width: 77.49px;
     height: 17px;
     font-weight: 700;
@@ -706,7 +706,7 @@ body{
     color: #FFFFFF;
   }
   
-  #Articles_news{
+  #news0{
     display: flex;
     margin-top: 49px;
   }
@@ -905,7 +905,7 @@ body{
     color: #FFFFFF;
   }
   
-  #boton_desplegar{
+  #botonfinal{
     width: 48px;
     height: 48px;
     border: 1px solid #FFFFFF;
@@ -971,4 +971,8 @@ body{
     max-width: 24px;
     height: 24px;
     max-height: 24px;
+  }
+
+  #nombre{
+    display: flex;
   }
