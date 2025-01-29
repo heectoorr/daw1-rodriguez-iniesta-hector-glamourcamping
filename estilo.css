@@ -3,7 +3,7 @@ body{
     font-family: "Inter", serif;
     margin: 0;
   }
-  
+
   a{
     font-size:16px;
   }
@@ -976,3 +976,9 @@ body{
   #nombre{
     display: flex;
   }
+  
+  #action{
+    background: url(imagenes/hoguera.png) no-repeat center center/cover;
+    height: 500px;
+  } 
+
