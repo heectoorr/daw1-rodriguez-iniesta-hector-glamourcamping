@@ -1,238 +1,259 @@
+/* ------------------- ESTILOS GENERALES ------------------- */
+
+/* Estilos generales para el cuerpo de la página */
 body {
-    box-sizing: border-box;
-    font-family: "Inter", sans-serif;
-    font-size: 16px;
-    margin: 0;
-    background-color: #F7F2DB;
+    box-sizing: border-box; /* Ajusta el modelo de caja */
+    font-family: "Inter", sans-serif; /* Fuente principal */
+    font-size: 16px; /* Tamaño de fuente base */
+    margin: 0; /* Sin margen */
+    background-color: #F7F2DB; /* Color de fondo */
 }
 
-a {
-    font-size: 16px;
-}
 
+
+/* ------------------- CABECERA ------------------- */
+
+/* Contenedor principal de la cabecera */
 #cabezera {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    border: #243d2b 10px solid;
-    border-radius: 100px;
-    /* background-image: url(imagenes/inicialarticulo.png); */
-    background-color: #2a4933;
-    opacity: 0.95;
-    height: 220px;
-    margin-bottom: 90px;
-    
+    align-items: center; /* Alineación vertical centrada */
+    display: flex; /* Diseño en flexbox */
+    justify-content: space-between; /* Espaciado entre elementos */
+    border: #243d2b 10px solid; /* Borde verde oscuro */
+    border-radius: 100px; /* Bordes redondeados */
+    background-color: #2a4933; /* Color de fondo */
+    opacity: 0.95; /* Transparencia */
+    height: 220px; /* Altura del contenedor */
+    margin-bottom: 90px; /* Separación inferior */
 }
 
 
-header {
-    background-size: contain;
-    background-repeat: no-repeat;
 
-    width: 1920px;
-    max-width: 1920px;
-    max-height: 925px;
-
-}
-
+/* Estilos del logo */
 .logo {
-    width: 152.13px;
-    height: 110px;
-    margin-left: 115px;
+    width: 152px; /* Ancho del logo */
+    height: 110px; /* Altura del logo */
+    margin-left: 115px; /* Margen izquierdo */
 }
 
+
+
+
+
+
+
+/* ------------------- MENÚ ------------------- */
+
+/* Contenedor del menú */
 #menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 115px;
+    display: flex; /* Diseño en flexbox */
+    justify-content: center; /* Centrado horizontal */
+    margin-right: 115px; /* Margen derecho */
 }
 
+/* Botones del menú */
 #menu button {
-    width: 151px;
-    height: 50px;
-    border: 2px solid #FFFFFF;
-    background-color: transparent;
-    border-radius: 10px;
-    margin-left: 50px;
-
+    width: 151px; /* Ancho del botón */
+    height: 50px; /* Altura del botón */
+    border: 2px solid #FFFFFF; /* Borde blanco */
+    background-color: transparent; /* Fondo transparente */
+    border-radius: 10px; /* Bordes redondeados */
+    margin-left: 50px; /* Margen izquierdo */
 }
 
+/* Lista de navegación dentro del menú */
 #menu nav ul {
-    width: 395px;
-    height: 35px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width: 395px; /* Ancho de la lista */
+    display: flex; /* Diseño en flexbox */
+    justify-content: space-between; /* Espaciado entre elementos */
+    align-items: center; /* Alineación vertical */
 }
 
+/* Elementos de la lista del menú */
 #menu nav ul li {
-    list-style: none;
+    list-style: none; /* Sin viñetas */
 }
 
+/* Enlaces dentro de los elementos del menú */
 #menu nav ul li a {
-    color: #FFFFFF;
-    text-decoration: none;
-    font-weight: 500;
-
+    color: #FFFFFF; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+    font-weight: 500; /* Grosor del texto */
 }
 
-
-
+/* Enlaces dentro de los botones del menú */
 #menu button a {
-    text-decoration: none;
-    color: #FFFFFF;
-    font-weight: 700;
-    font-size: 15px;
-
+    text-decoration: none; /* Sin subrayado */
+    color: #FFFFFF; /* Color del texto */
+    font-weight: 700; /* Grosor del texto */
+    font-size: 15px; /* Tamaño de la fuente */
 }
 
 
+
+
+
+
+
+
+/* ------------------- FOOTER ------------------- */
+
+/* Contenedor principal del footer */
 footer {
-    width: 1920px;
-    max-width: 1920px;
-    height: 610px;
-    max-height: 610px;
-    background-color: #345E40;
-    margin-top: 90px;
+    width: 1920px; /* Ancho completo */
+    height: 490px; /* Altura del footer */
+    background-color: #345E40; /* Color de fondo */
+    margin-top: 90px; /* Separación superior */
 }
 
-footer>div {
-    position: absolute;
-    margin-left: 210px;
-    display: flex;
-    margin-top: 100px;
+/* Contenedor de elementos dentro del footer */
+footer > div {
+    margin-left: 210px; /* Margen izquierdo */
+    display: flex; /* Diseño en flexbox */
+    margin-top: 100px; /* Separación superior */
 }
 
-
-
+/* Encabezado dentro del footer */
 #subscribe h1 {
-    color: #FFFFFF;
-    width: 751px;
-    height: 182px;
-    font-weight: 700;
-    font-size: 70px;
-    text-transform: uppercase;
-    margin-right: 250px;
+    color: #FFFFFF; /* Color del texto */
+    width: 751px; /* Ancho del encabezado */
+    height: 182px; /* Altura del encabezado */
+    font-weight: 700; /* Grosor del texto */
+    font-size: 70px; /* Tamaño de la fuente */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    margin-right: 250px; /* Margen derecho */
 }
 
+/* Párrafo dentro del footer */
 #subscribe p {
-    height: 21px;
-    font-weight: 400;
-    font-size: 16px;
-    color: #FFFFFF;
-    margin-top: 50px;
+    height: 21px; /* Altura del párrafo */
+    font-weight: 400; /* Grosor del texto */
+    font-size: 16px; /* Tamaño de la fuente */
+    color: #FFFFFF; /* Color del texto */
+    margin-top: 50px; /* Separación superior */
 }
 
+/* Contenedor derecho del footer */
 #derecha {
-    margin-top: 180px;
-    margin-left: 197px;
+    margin-top: 180px; /* Separación superior */
+    margin-left: 197px; /* Margen izquierdo */
 }
 
+/* Contenedor del footer final */
 #footerfinal {
-    display: flex;
-    margin-top: 33px;
+    display: flex; /* Diseño en flexbox */
+    margin-top: 33px; /* Separación superior */
 }
 
+/* Navegación dentro del footer final */
 #footerfinal nav {
-    width: 384px;
-    max-width: 384px;
-    height: 99px;
-    max-height: 99px;
+    width: 384px; /* Ancho del contenedor */
+    height: 99px; /* Altura del contenedor */
 }
 
+/* Encabezados dentro de la navegación del footer */
 #footerfinal nav h4 {
-    color: #FFFFFF;
-    width: 99px;
-    height: 43px;
-    font-weight: 700;
-    font-size: 24px;
+    color: #FFFFFF; /* Color del texto */
+    font-weight: 700; /* Grosor del texto */
+    font-size: 24px; /* Tamaño de la fuente */
 }
 
+/* Lista de navegación dentro del footer */
 #footerfinal nav ul {
-    width: 384px;
-    height: 32px;
-    display: flex;
-    justify-content: space-between;
-    padding: 0px;
-    margin-top: 24px;
+    width: 384px; /* Ancho de la lista */
+    display: flex; /* Diseño en flexbox */
+    justify-content: space-between; /* Espaciado entre elementos */
+    padding: 0px; /* Sin relleno */
+    margin-top: 24px; /* Separación superior */
 }
 
+/* Elementos de la lista de navegación */
 #footerfinal nav ul li {
-    list-style: none;
+    list-style: none; /* Sin viñetas */
 }
 
-#footerfinal>nav>ul a {
-    font-weight: 400;
-    font-size: 16px;
-    text-decoration: none;
-    color: #FFFFFF;
+/* Enlaces dentro de la lista de navegación */
+#footerfinal > nav > ul a {
+    font-weight: 400; /* Grosor del texto */
+    font-size: 16px; /* Tamaño de la fuente */
+    text-decoration: none; /* Sin subrayado */
+    color: #FFFFFF; /* Color del texto */
 }
 
+/* Botón circular en el footer */
 #botonfinal {
-    width: 48px;
-    height: 48px;
-    border: 1px solid #FFFFFF;
-    border-radius: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 12px;
-    margin-left: 124px;
-    cursor: pointer;
+    width: 48px; /* Ancho del botón */
+    height: 48px; /* Altura del botón */
+    border: 1px solid #FFFFFF; /* Borde blanco */
+    border-radius: 100px; /* Forma circular */
+    display: flex; /* Diseño en flexbox */
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+    margin-top: 12px; /* Separación superior */
+    margin-left: 124px; /* Margen izquierdo */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
 }
 
+
+
+
+
+
+
+
+
+/* ------------------- CONTACTO EN EL FOOTER ------------------- */
+
+/* Contenedor de la sección de contacto */
 #footercontacto {
-    width: 222px;
-    max-width: 222px;
-    height: 134px;
-    max-height: 134px;
-    margin-top: 80px;
+    width: 222px; /* Ancho del contenedor */
+    height: 134px; /* Altura del contenedor */
+    margin-top: 80px; /* Separación superior */
 }
 
+/* Encabezados dentro de la sección de contacto */
 #footercontacto h4 {
-    width: 94px;
-    max-width: 94px;
-    height: 43px;
-    max-height: 43px;
-    font-weight: 700;
-    font-size: 24px;
-    color: #F8F5F0;
+    width: 94px; /* Ancho del encabezado */
+    height: 43px; /* Altura del encabezado */
+    font-weight: 700; /* Grosor del texto */
+    font-size: 24px; /* Tamaño de la fuente */
+    color: #F8F5F0; /* Color del texto */
 }
 
+/* Enlaces dentro de la sección de contacto */
 #footercontacto a {
-    width: 176px;
-    max-width: 176px;
-    height: 21px;
-    max-height: 21px;
-
-    font-weight: 400;
-    font-size: 16px;
-
-
-    color: #FFFFFF;
-    text-decoration: none;
+    width: 176px; /* Ancho del enlace */
+    height: 21px; /* Altura del enlace */
+    font-weight: 400; /* Grosor del texto */
+    font-size: 16px; /* Tamaño de la fuente */
+    color: #FFFFFF; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
 }
 
+
+
+
+
+
+
+
+/* ------------------- LOGOS EN EL FOOTER ------------------- */
+
+/* Contenedor de los logos en el footer */
 #footerlogos {
-    width: 213px;
-    height: 24px;
-    margin-top: 19px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width: 213px; /* Ancho del contenedor */
+    height: 24px; /* Altura del contenedor */
+    margin-top: 20px; /* Separación superior */
+    display: flex; /* Diseño en flexbox */
+    justify-content: space-between; /* Espaciado entre elementos */
+    align-items: center; /* Alineación vertical */
 }
 
+/* Imágenes de los logos en el footer */
 #Logos_Footer img {
-    width: 24px;
-    max-width: 24px;
-    height: 24px;
-    max-height: 24px;
+    width: 24px; /* Ancho de la imagen */
+    height: 24px; /* Altura de la imagen */
 }
 
-#nombre {
-    display: flex;
-}
 
 hr {
     border-left: 1px solid #9A9A9A;
@@ -256,46 +277,122 @@ hr {
     margin-right: 200px;
 }
 
+
+
+
+
+
+
+
+
+/* ------------------- ARTÍCULOS ------------------- */
+
+/* Contenedor principal de los artículos */
 .articulo {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    padding-left: 300px;
-    padding-right: 300px;
+    display: flex; /* Diseño en flexbox */
+    align-items: center; /* Alineación vertical */
+    gap: 20px; /* Espaciado entre elementos */
+    padding-left: 300px; /* Relleno izquierdo */
+    padding-right: 300px; /* Relleno derecho */
 }
 
+/* Imágenes dentro de los artículos */
 .articulo img {
-    width: 100%;
-    height: 100%;
-    max-width: 500px;
-    max-height: 500px;
-    border-radius: 20px;
+    width: 700px; /* Ancho completo */
+    height: 400px; /* Altura completa */
+    border-radius: 20px; /* Bordes redondeados */
 }
 
+/* Encabezados dentro de los artículos */
 .articulo h1 {
+    font-weight: 700; /* Grosor del texto */
+    font-size: 40px; /* Tamaño de la fuente */
+    color: #000000; /* Color del texto */
+}
+
+/* Párrafos dentro de los artículos */
+.articulo p {
+    font-weight: 400; /* Grosor del texto */
+    font-size: 16px; /* Tamaño de la fuente */
+    color: #000000; /* Color del texto */
+}
+
+
+
+
+
+
+
+
+/* ------------------- ALL ARTICLES ------------------- */
+
+/* Contenedor principal de los artículos */
+.noticia {
+    display: flex; /* Diseño en flexbox */
+    align-items: center; /* Alineación vertical */
+    gap: 20px; /* Espaciado entre elementos */
+    padding-left: 300px; /* Relleno izquierdo */
+    padding-right: 300px; /* Relleno derecho */
+    padding-top: 100px;
+}
+
+/* Imágenes dentro de los artículos */
+.noticia img {
+    width: 700px; /* Ancho completo */
+    height: 400px; /* Altura completa */
+    border-radius: 20px; /* Bordes redondeados */
+}
+
+/* Párrafos dentro de los artículos */
+.noticia p {
+
+    font-size: 36px; /* Tamaño de la fuente */
+    color: #000000; /* Color del texto */
+}
+
+.imgnews {
+    width: 700px;
+    border-radius: 50px;
+    height: 400px;
+}
+  
+.pnews {
+    width: 600px; /* Ancho del párrafo */
+    text-align: center;
+    font-size: 30px; /* Tamaño de la fuente */
     font-weight: 700;
     font-size: 40px;
-
     color: #000000;
 }
 
-.articulo p {
-    font-weight: 400;
-    font-size: 16px;
 
-    color: #000000;
+
+#allarticles {
+    color: rgb(0, 0, 0);
+    font-size: 40px; /* Tamaño de la fuente */
+    padding-left: 900px; /* Relleno izquierdo */
+    padding-right: 300px; /* Relleno derecho */
 }
 
-.imgnoticias{
-    width: 600px;
+
+
+
+/* ------------------- OTROS ------------------- */
+
+/* Imagen dentro de las noticias */
+.imgnoticias {
+    width: 600px; /* Ancho de la imagen */
 }
 
-.pnoticia{
-    width: 600px ;
-    height: 100px;
-    
+/* Párrafo dentro de las noticias */
+.pnoticia {
+    width: 600px; /* Ancho del párrafo */
+    height: 100px; /* Altura del párrafo */
 }
 
-.noticia{
-
+/* Contenedor de noticias específicas */
+.news01 {
+    width: 600px; /* Ancho del contenedor */
+    height: 100px; /* Altura del contenedor */
+    margin-top: 20px; /* Separación superior */
 }
