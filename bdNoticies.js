@@ -33,14 +33,16 @@ const data = [
   }
 ];
 
-const isIndex = window.location.pathname.includes("index.html") || window.location.pathname === "/";
+const isIndex = window.location.pathname.endsWith("index.html") || window.location.pathname === "/";
+
 const noticiasAMostrar = isIndex ? data.slice(0, 3) : data;
+
 
 const contenedor = document.querySelector('#news0');
 if (contenedor) {
   contenedor.innerHTML = "";
 
-  noticiasAMostrar.forEach((item, index) => {
+  noticiasAMostrar.forEach((item, index) => { 
     const div = document.createElement('div');
     div.className = "noticia";
     div.id = `${item.id}`;
