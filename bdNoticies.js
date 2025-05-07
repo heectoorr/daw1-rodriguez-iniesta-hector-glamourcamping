@@ -33,8 +33,7 @@ const data = [
   }
 ];
 
-const isIndex = window.location.pathname.endsWith("index.html") || window.location.pathname === "/";
-
+const isIndex = window.location.pathname.includes("index.html") || window.location.pathname === "/";
 const noticiasAMostrar = isIndex ? data.slice(0, 3) : data;
 
 
